@@ -1,7 +1,9 @@
-public class UnreachableCodeExample {
+package lab4_part2;
+
+class UnreachableCodeExample {
     public static int getNumber() {
         return 42;
-        System.out.println("This will never execute");
+        //System.out.println("This will never execute");
     }
 
     public static void main(String[] args) {
